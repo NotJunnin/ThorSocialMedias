@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container{
+    width: 350px;
+    background-color: black;
+    background-image: url('wave.svg');
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    margin: 0 auto;
+    padding: 40px 16px 16px 30px;
+    text-align: center;
+    color: #000b76
+}
+
+#container2{
+    width: 180px;
+    height: 180px;
+    background-color: #000b76;
+    border-radius: 80px;
+    margin: 0 auto;
+}
+#container img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+#container h1{
+    margin-top: 20px;
+}
+#container p{
+    margin-bottom: 16px;
+}
+#container .redes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#container .redes li a{
+    width: 46px;
+    height: 46px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+#container .link li a{
+    background-color: gray;
+    display: block;
+    margin-top: 15px;
+    line-height: 30px;
+    border-radius: 30px;
+}
+
+@media only sreen and (max-width:480px) {
+    #container{
+        width: 100%;
+    }
+}
